@@ -1,6 +1,6 @@
 # Mark Robert Magsino
 
-**Data Analyst — Health & Life Sciences**
+### 🔬 Data Analyst — Health & Life Sciences
 
 I work with messy operational and biological data and turn it into things people can act on: SQL models, Python pipelines, and dashboards that answer a specific question rather than displaying everything at once.
 
@@ -8,68 +8,65 @@ My background is in the life sciences — a BS in Medical Biology, microbiologic
 
 Most of what I publish here sits where health data meets business analytics.
 
-Based in Manila, Philippines · GMT+8, remote-friendly · Open to full-time data roles and freelance engagements
+> ### 🔗 [**View the full portfolio →**](https://mark-the-analyst.github.io/mark-the-analyst-portfolio/)
+> The complete project library, case studies, and certifications — filterable by domain, tool, and project type. This README covers four projects; the site has the rest.
+
+📍 Based in Manila, Philippines · 🕗 GMT+8, remote-friendly · ✅ Open to full-time data roles and freelance engagements
 
 ---
 
-### What I work with
+### 🧰 What I work with
 
 | | |
 |---|---|
-| **Querying & languages** | SQL (PostgreSQL, MySQL, SQL Server, BigQuery), Python (pandas, NumPy), R, DAX |
-| **Visualization** | Power BI, Tableau, Looker Studio, Plotly, Matplotlib, Excel (Power Query, PivotTables) |
-| **Analysis** | Exploratory analysis, cohort and funnel analysis, segmentation, A/B testing, forecasting, anomaly detection |
-| **ML & statistics** | scikit-learn, XGBoost, statsmodels |
-| **Pipelines** | ETL, data modeling, star schema, dbt, Airflow, cleaning and validation workflows |
-| **Domain** | Health informatics, bioinformatics, GLP/cGMP, statistical process control |
+| 💻 **Querying & languages** | SQL (PostgreSQL, MySQL, SQL Server, BigQuery), Python (pandas, NumPy), R, DAX |
+| 📉 **Visualization** | Power BI, Tableau, Looker Studio, Plotly, Matplotlib, Excel (Power Query, PivotTables) |
+| 🔍 **Analysis** | Exploratory analysis, cohort and funnel analysis, segmentation, A/B testing, forecasting, anomaly detection |
+| 🤖 **ML & statistics** | scikit-learn, XGBoost, statsmodels, unsupervised anomaly detection |
+| 🔄 **Pipelines** | ETL, data modeling, star schema, dbt, Airflow, cleaning and validation workflows |
+| 🏥 **Domain** | Health informatics, bioinformatics, GLP/cGMP, statistical process control |
 
 ---
 
-### Selected work
+### 📊 Selected work
 
-<!--
-STRUCTURE FOR EACH PROJECT — keep all four parts, in this order:
-  1. The dataset: record count, time span, and where it came from.
-     If you sourced or collected it yourself, say so out loud.
-  2. The question you were actually answering.
-  3. What you built: the pipeline, model, or dashboard.
-  4. What you found — the specific, non-obvious result, in bold.
+#### 🧬 Longitudinal Health Analytics on 3.3 Billion Records
+`BigQuery` `SQL` `Python` `R` `Power BI`
 
-Part 4 is the one that matters. "Built a dashboard" describes effort;
-"found that X drove Y" describes judgment. Reviewers screen for the second.
+A synthetic longitudinal health dataset — 3.3 billion records across 575,000 patients — covering mortality, disease burden, prescribing patterns, and healthcare utilization. The question was whether prescribing behaviour that looks reasonable at the network level hides concentrated problems at the facility level. I built the ingestion and transformation layer in BigQuery and Python, then applied unsupervised learning in R to flag anomalous medication–diagnosis pairings and trace each flag back to its root cause. The output is a 23-page Power BI report with drill-through from network-level anomaly flags down to individual facilities. **1.99 million dispensed units of antibiotics were prescribed against viral diagnoses — and 91% of that volume sat in a single product–diagnosis pair, which turns a diffuse stewardship problem into one specific, addressable prescribing pattern.**
 
-Three projects, done properly, beat twelve one-liners. Replace the slots
-below and delete any you can't fill honestly.
--->
-
-#### [Project name]
-`Python` `PostgreSQL` `Power BI`
-
-[Dataset — what it is, roughly how many records, what period it covers, and where it came from.] [The question you set out to answer.] [What you built: the ingestion and cleaning pipeline, the model, the dashboard and who it was for.] **[The finding, stated specifically, and what it implied for whoever had to act on it.]**
-
-→ [Repository](#) · [Live dashboard](#)
+→ [View the report](https://drive.google.com/file/d/1WA9E0sh5u__SxLsXyESQSVBwuuy7q3bp/view?usp=drive_link)
 
 ---
 
-#### [Project name]
-`SQL` `Tableau`
+#### ⚗️ Automated Laboratory Inventory Management System
+`Node.js` `PostgreSQL` `Git` `Postman`
 
-[Same structure. Make this the one that shows real SQL depth — a schema you designed, several joined tables, window functions, incremental logic; something clearly beyond a single-table read. Say which part of the schema was your decision and why.] **[The finding.]**
+The UP Manila Research Laboratory ran reagent and equipment requests on manual paper forms, which meant no reliable stock position and no audit trail on who ordered what. I designed the relational schema and built a full-stack inventory and order management system that replaces those forms with structured order workflows and automated inventory reporting. **[One line on the outcome — e.g. what the system made visible that the paper process couldn't, or the reduction in stockouts, turnaround time, or reconciliation effort. Even an approximate figure is worth more than "improved efficiency."]**
 
-→ [Repository](#) · [Live dashboard](#)
-
----
-
-#### [Project name]
-`Python` `R`
-
-[Same structure. This is the slot for the health, laboratory, or bioinformatics work — the project least likely to appear on anyone else's profile. Lean into the domain rather than sanding it down into generic analytics.] **[The finding.]**
-
-→ [Repository](#) · [Write-up](#)
+→ [View the project](https://drive.google.com/file/d/1OGGt7snY_9fmSuga-kLEX2iDO-FAFqdo/view?usp=sharing)
 
 ---
 
-### Background
+#### 📈 DepEd National Enrollment Trend Analysis, 2017–2026
+`R` `Excel` `Power BI`
+
+Ten school years of national Department of Education enrollment data, cleaned and reconciled across regions and reporting formats that changed over the decade. The question was where enrollment is actually shifting once you separate national totals from regional movement. **[The specific finding — which regions diverged from the national trend, and over what period. This is the line the project needs; the current write-up says "discovered trends and insights," which describes effort rather than judgment.]** Work in progress.
+
+→ [Initial results](https://drive.google.com/file/d/1mojTgyrnnLrAdUGwJTjBfCnt21S8zRBc/view?usp=drive_link)
+
+---
+
+#### 📚 Phil-IRI Literacy and Numeracy Monitoring Dashboard
+`Power BI` `Excel`
+
+School-wide reporting solution tracking student literacy and numeracy against Phil-IRI assessment standards, consolidating results from individual teacher records into a single monitoring dashboard used by faculty and reviewed each grading period. **[The finding — which cohort or competency was furthest below standard, and what the school changed as a result. You mentioned it fed institutional policy; name the decision it informed.]**
+
+→ [Add link]
+
+---
+
+### 🎓 Background
 
 **MS Health Informatics (Bioinformatics)** — University of the Philippines Manila, 2024–present
 University Scholar. Coursework in bioinformatics algorithms, data modeling, stochastic models, data mining, and big data processing. Currently finishing thesis work.
@@ -82,12 +79,20 @@ University Scholar. Coursework in bioinformatics algorithms, data modeling, stoc
 
 ---
 
-### Currently
+### 🚧 Currently
 
 Wrapping up my MS thesis in bioinformatics and taking on freelance analytics work. Most interested in roles where health, biological, or laboratory data meets business decision-making.
 
 ---
 
-### Reach me
+### 🗂️ More work
+
+The four projects above are a sample. The full library — case studies, dashboards, and certifications, filterable by domain, tool, and project type — lives on the portfolio site:
+
+**→ [mark-the-analyst.github.io/mark-the-analyst-portfolio](https://mark-the-analyst.github.io/mark-the-analyst-portfolio/)**
+
+---
+
+### 📬 Reach me
 
 [Portfolio](https://mark-the-analyst.github.io/mark-the-analyst-portfolio/) · [LinkedIn](https://www.linkedin.com/in/mrgmagsino2026/) · [Tableau Public](https://public.tableau.com) · mrgmagsino2026@gmail.com
