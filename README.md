@@ -4,7 +4,7 @@
 
 I work with messy operational and biological data and turn it into things people can act on: SQL models, R, Python pipelines, and BI dashboards that answer a specific question rather than displaying everything at once.
 
-My background is in the life sciences — a BS in Medical Biology, pharmaceutical analyst in a regulated pharmaceutical lab, and an MS in Health Informatics (Bioinformatics) in progress at UP Manila. Comfortable with data that arrives from instruments and protocols rather than clean exports, and with the documentation and validation habits that regulated environments demand.
+My background is in the life sciences — a BS in Medical Biology, a former Special Science Teacher in DepEd, a pharmaceutical analyst in a regulated pharmaceutical lab, and an MS in Health Informatics (Bioinformatics) in progress at UP Manila. Comfortable with data that arrives from instruments and protocols rather than clean exports, and with the documentation and validation habits that regulated environments demand.
 
 Most of what I publish here sits where health data meets business analytics.
 
@@ -72,9 +72,9 @@ Built a school-wide reporting solution tracking student literacy and numeracy pe
 ### 🎓 Background
 
 **MS Health Informatics (Bioinformatics)** — University of the Philippines Manila, 2024–present
-University Scholar. Coursework in bioinformatics algorithms, data modeling, stochastic models, data mining, and big data processing. Currently finishing thesis work.
+Coursework in bioinformatics algorithms, data modeling, stochastic models, data mining, and big data processing. Currently finishing thesis work.
 
-**BS Biology, major in Medical Biology** — Pamantasan ng Lungsod ng Maynila, Cum Laude
+**BS Biology, major in Medical Biology** — Pamantasan ng Lungsod ng Maynila
 
 **Experience** — Freelance data analyst since 2023, building models and dashboards across business, retail, logistics, and public health. Previously: Special Science Teacher and laboratory head at DepEd, where I ran the school's data analytics initiatives and mentored students through research methods and data storytelling; microbiological analyst at EL Laboratories under GLP/cGMP, including OOS investigation support and instrument calibration; instructor and IBM SkillsBuild program co-administrator at Rizal College of Laguna; laboratory intern at the DOST Philippine Nuclear Research Institute, processing cytogenetic image data for biological dosimetry.
 
